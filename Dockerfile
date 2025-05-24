@@ -1,0 +1,5 @@
+FROM nginx:latest
+COPY index.html /usr/share/nginx/html/
+COPY styles.css /usr/share/nginx/html/
+COPY logo.png /usr/share/nginx/html/
+EXPOSE 80
